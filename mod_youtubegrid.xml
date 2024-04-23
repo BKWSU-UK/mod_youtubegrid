@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>mod_youtubegrid</name>
+    <author>Allan Schweitz</author>
+    <version>1.0.0</version>
+    <description>Displays videos from a YouTube playlist in a grid with pagination.</description>
+    <files>
+        <filename>mod_youtubegrid.xml</filename>
+        <filename module="mod_youtubegrid">mod_youtubegrid.php</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="apikey" type="text" default="" label="YouTube API Key" description="Enter your YouTube Data API v3 key here."/>
+                <field name="playlistid" type="text" default="" label="Playlist ID" description="Enter the YouTube Playlist ID."/>
+                <field name="videos_per_page" type="number" default="12" label="Videos per Page" description="Number of videos to display per page."/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
