@@ -15,4 +15,4 @@ $pageToken = $app->input->get('pageToken', '');
 
 $videos = ModMyVideoGridHelper::getPlaylistVideos($apikey, $playlistid, $videos_per_page, $pageToken);
 
-require ModuleHelper::getLayoutPath('mod_myvideogrid');
+require ModuleHelper::getLayoutPath('mod_youtubegrid');
