@@ -1,8 +1,6 @@
 <?php
 defined('_JEXEC') or die;
 
-//require_once __DIR__ . '/helper.php';
-
 use Joomla\CMS\Factory;
 use Joomla\CMS\Router\Route;
 Use BKWSU\Module\Youtubegrid\Site\Helper\YoutubegridHelper;

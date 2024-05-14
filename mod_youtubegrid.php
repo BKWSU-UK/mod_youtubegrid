@@ -5,8 +5,6 @@ use Joomla\CMS\Helper\ModuleHelper;
 use Joomla\CMS\Factory;
 use BKWSU\Module\Youtubegrid\Site\Helper\YoutubegridHelper;
 
-//require_once '../helper.php';
-
 $apikey = $params->get('apikey', '');
 $playlistid = $params->get('playlistid', '');
 $videos_per_page = $params->get('videos_per_page', 12);

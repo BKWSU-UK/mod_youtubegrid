@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="4.0" client="site" method="upgrade">
-    <name>mod_youtubegrid</name>
+    <name>Youtube Grid</name>
     <author>Allan Schweitz</author>
     <version>1.0.0</version>
     <description>Displays videos from a YouTube playlist in a grid with pagination.</description>

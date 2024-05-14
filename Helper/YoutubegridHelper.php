@@ -21,7 +21,7 @@ class YoutubegridHelper
         $context = stream_context_create([
             'http' => [
                 'method' => 'GET',
-                'header' => "Referer: https://wembley-test.innerspace.org"
+                'header' => 'Referer: ' . Uri::root()
             ]
         ]);
         //echo Route::_($playlistUri->toString());
