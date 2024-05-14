@@ -4,11 +4,13 @@
     <author>Allan Schweitz</author>
     <version>1.0.0</version>
     <description>Displays videos from a YouTube playlist in a grid with pagination.</description>
+    <namespace>BKWSU\Module\Youtubegrid</namespace>
     <files>
         <filename>mod_youtubegrid.xml</filename>
         <filename module="mod_youtubegrid">mod_youtubegrid.php</filename>
-        <filename>helper.php</filename>
+        <!--filename>helper.php</filename-->
         <folder>tmpl</folder>
+        <folder>Helper</folder>
     </files>
     <config>
         <fields name="params">
